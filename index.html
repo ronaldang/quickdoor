@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickDoor - Solve Delivery Address Problems</title>
+    <meta name="description" content="Send your address to delivery drivers automatically when they call. No apps, no fees.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+        }
+        .feature-card {
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white">
+        <div class="container mx-auto px-6 py-16 text-center">
+            <div class="max-w-3xl mx-auto">
+                <!-- Logo/Title -->
+                <h1 class="text-5xl font-bold mb-4">QuickDoor 🚪</h1>
+                <p class="text-2xl mb-8">Smart solution for delivery address problems</p>
+                
+                <!-- Problem Statement -->
+                <div class="bg-white/10 backdrop-blur rounded-2xl p-6 mb-8">
+                    <p class="text-xl leading-relaxed">
+                        "The delivery driver always calls asking for the address... 😤"<br>
+                        <span class="text-lg opacity-90">With QuickDoor, your address is sent automatically!</span>
+                    </p>
+                </div>
+                
+                <!-- CTA Button -->
+                <a href="#download" class="inline-block bg-white text-green-700 font-bold text-xl px-8 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
+                    Get the Free Shortcut 📲
+                </a>
+                
+                <!-- Quick Stats -->
+                <div class="mt-8 flex justify-center gap-8 text-sm">
+                    <span>✅ 100% Free</span>
+                    <span>🔒 Fully Secure</span>
+                    <span>📱 iOS Only</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- How It Works -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">How QuickDoor Works</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Step 1 -->
+                <div class="feature-card bg-white rounded-xl p-6 shadow-md text-center">
+                    <div class="text-4xl mb-4">📞</div>
+                    <h3 class="font-bold text-xl mb-2">Unknown Number Calls</h3>
+                    <p class="text-gray-600">When an unknown number calls (usually delivery)</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="feature-card bg-white rounded-xl p-6 shadow-md text-center">
+                    <div class="text-4xl mb-4">🤖</div>
+                    <h3 class="font-bold text-xl mb-2">Shortcut Activates</h3>
+                    <p class="text-gray-600">Prepares WhatsApp message with location and photos</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="feature-card bg-white rounded-xl p-6 shadow-md text-center">
+                    <div class="text-4xl mb-4">✉️</div>
+                    <h3 class="font-bold text-xl mb-2">Send to Driver</h3>
+                    <p class="text-gray-600">Just tap send and you're done!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Features</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-3xl mb-3">📍</div>
+                    <h3 class="font-semibold mb-1">Current Location</h3>
+                    <p class="text-sm text-gray-600">Sends precise location automatically</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-3xl mb-3">🏠</div>
+                    <h3 class="font-semibold mb-1">Building Photos</h3>
+                    <p class="text-sm text-gray-600">Save photos once, use forever</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-3xl mb-3">📝</div>
+                    <h3 class="font-semibold mb-1">Custom Instructions</h3>
+                    <p class="text-sm text-gray-600">Apartment number, floor, and notes</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-3xl mb-3">🔐</div>
+                    <h3 class="font-semibold mb-1">Complete Privacy</h3>
+                    <p class="text-sm text-gray-600">Everything stays on your phone</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-8 text-gray-800">Get QuickDoor</h2>
+                
+                <div class="bg-white rounded-2xl shadow-xl p-8">
+                    <div class="mb-6">
+                        <span class="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+                            Requirements: iPhone with iOS 14 or newer
+                        </span>
+                    </div>
+                    
+                    <!-- Important Note -->
+                    <div class="bg-yellow-50 border-2 border-yellow-200 rounded-xl p-4 mb-6">
+                        <p class="text-yellow-800">
+                            <strong>⚠️ Important:</strong> For security, iOS doesn't allow direct shortcut downloads. 
+                            You'll need to get it via iCloud link or build it yourself.
+                        </p>
+                    </div>
+                    
+                    <!-- Options -->
+                    <div class="space-y-4">
+                        <!-- Option 1: iCloud Link -->
+                        <div class="border-2 border-green-500 rounded-xl p-6 bg-green-50">
+                            <h3 class="font-bold text-xl mb-3">Option 1: Get via iCloud (Easiest)</h3>
+                            <p class="text-gray-700 mb-4">Open this link on your iPhone to add the shortcut:</p>
+                            <a href="https://www.icloud.com/shortcuts/YOUR_SHORTCUT_ID_HERE" 
+                               class="inline-block gradient-bg text-white font-bold text-lg px-8 py-3 rounded-full hover:opacity-90 transition-opacity shadow-lg">
+                                Add QuickDoor Shortcut 📥
+                            </a>
+                            <p class="text-sm text-gray-500 mt-3">Opens in Shortcuts app</p>
+                        </div>
+                        
+                        <!-- Option 2: Build Yourself -->
+                        <div class="border rounded-xl p-6">
+                            <h3 class="font-bold text-xl mb-3">Option 2: Build It Yourself (5 mins)</h3>
+                            <p class="text-gray-700 mb-4">Follow our step-by-step guide to create the shortcut:</p>
+                            <a href="build-guide.html" class="text-green-600 hover:underline font-semibold">
+                                📖 Build Instructions →
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Setup Link -->
+                    <div class="mt-8 pt-6 border-t">
+                        <p class="text-gray-600 mb-3">After adding the shortcut:</p>
+                        <a href="setup.html" class="text-green-600 hover:underline font-semibold text-lg">
+                            📱 Complete Setup Guide (3 minutes)
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Trust Badges -->
+                <div class="mt-12 flex justify-center gap-8 flex-wrap">
+                    <div class="text-center">
+                        <div class="text-2xl mb-1">🆓</div>
+                        <span class="text-sm text-gray-600">Forever Free</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl mb-1">🚫</div>
+                        <span class="text-sm text-gray-600">No Ads</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl mb-1">🔒</div>
+                        <span class="text-sm text-gray-600">No Tracking</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl mb-1">💾</div>
+                        <span class="text-sm text-gray-600">No Servers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Frequently Asked Questions</h2>
+            
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white rounded-lg p-6">
+                    <h3 class="font-bold text-lg mb-2">Why can't I download the .shortcut file directly?</h3>
+                    <p class="text-gray-600">Apple restricts unsigned shortcuts for security. You must either use an iCloud link from a trusted source or build it yourself in the Shortcuts app.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-6">
+                    <h3 class="font-bold text-lg mb-2">Is building it myself difficult?</h3>
+                    <p class="text-gray-600">Not at all! Our guide walks you through each step with screenshots. Takes about 5 minutes.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-6">
+                    <h3 class="font-bold text-lg mb-2">Does it work with Android?</h3>
+                    <p class="text-gray-600">Currently iOS only. Android version using Tasker coming soon.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-6">
+                    <h3 class="font-bold text-lg mb-2">Is it safe for my privacy?</h3>
+                    <p class="text-gray-600">100% safe. All data stays on your phone only, we don't collect any information.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-6">
+                    <h3 class="font-bold text-lg mb-2">Can I customize the message?</h3>
+                    <p class="text-gray-600">Yes! Edit the shortcut to add your floor, apartment number, and any special instructions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-4">Made with ❤️ to solve delivery problems in Saudi Arabia</p>
+            <div class="flex justify-center gap-6 mb-4">
+                <a href="https://twitter.com/quickdoor" class="hover:text-green-400">Twitter</a>
+                <a href="https://github.com/quickdoor" class="hover:text-green-400">GitHub</a>
+                <a href="mailto:support@quickdoor.app" class="hover:text-green-400">Contact</a>
+            </div>
+            <p class="text-sm text-gray-400">© 2024 QuickDoor - Open Source Project</p>
+        </div>
+    </footer>
+</body>
+</html>

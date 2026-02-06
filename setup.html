@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup Guide - QuickDoor</title>
+    <meta name="description" content="Step-by-step QuickDoor installation and setup guide">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+        }
+        .step-number {
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #059669;
+            color: white;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-bold">Setup Guide 📱</h1>
+                <a href="index.html" class="text-white/80 hover:text-white">← Back</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Setup Instructions -->
+    <section class="py-12">
+        <div class="container mx-auto px-6 max-w-4xl">
+            
+            <!-- Prerequisites -->
+            <div class="bg-yellow-50 border-2 border-yellow-200 rounded-xl p-6 mb-8">
+                <h2 class="font-bold text-xl mb-3 flex items-center">
+                    <span class="text-2xl mr-2">⚠️</span>
+                    Before You Start, Make Sure You Have:
+                </h2>
+                <ul class="space-y-2 text-gray-700">
+                    <li>✓ iPhone with iOS 14 or newer</li>
+                    <li>✓ Shortcuts app installed (comes with iOS)</li>
+                    <li>✓ WhatsApp installed and logged in</li>
+                    <li>✓ Location permissions enabled for Shortcuts</li>
+                </ul>
+            </div>
+
+            <!-- Step 1: Get the Shortcut -->
+            <div class="bg-white rounded-xl shadow-md p-8 mb-6">
+                <div class="flex items-start mb-4">
+                    <span class="step-number mr-4">1</span>
+                    <h2 class="text-2xl font-bold">Get the QuickDoor Shortcut</h2>
+                </div>
+                
+                <div class="ml-14 space-y-4">
+                    <p>First, you need to have the QuickDoor shortcut installed:</p>
+                    
+                    <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                        <p class="font-semibold mb-2">Haven't built it yet?</p>
+                        <a href="build-guide.html" class="text-green-600 hover:underline font-semibold">
+                            → Follow the Build Guide (5 minutes)
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-100 rounded-lg p-4">
+                        <p class="text-sm text-gray-600">
+                            <strong>Already have it?</strong> Great! Continue to Step 2
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2: Prepare Photos -->
+            <div class="bg-white rounded-xl shadow-md p-8 mb-6">
+                <div class="flex items-start mb-4">
+                    <span class="step-number mr-4">2</span>
+                    <h2 class="text-2xl font-bold">Prepare Your Building Photos</h2>
+                </div>
+                
+                <div class="ml-14 space-y-4">
+                    <p>Before activating the shortcut, prepare photos to send to delivery drivers:</p>
+                    
+                    <ol class="list-decimal list-inside space-y-3 text-gray-700">
+                        <li>Open the Photos app</li>
+                        <li>Select 2-3 clear photos of your building:
+                            <ul class="list-disc list-inside ml-6 mt-2 text-sm">
+                                <li>Building exterior view</li>
+                                <li>Main entrance photo</li>
+                                <li>Nearby landmark (e.g., famous store)</li>
+                            </ul>
+                        </li>
+                        <li>Tap Share and select "Add to Album"</li>
+                        <li>Create a new album named <strong class="bg-gray-200 px-2 py-1 rounded">Delivery Photos</strong></li>
+                    </ol>
+                    
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                        <p class="text-sm">💡 <strong>Tip:</strong> You only need to set up these photos once and they'll be used automatically</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3: Configure Shortcut -->
+            <div class="bg-white rounded-xl shadow-md p-8 mb-6">
+                <div class="flex items-start mb-4">
+                    <span class="step-number mr-4">3</span>
+                    <h2 class="text-2xl font-bold">Configure Your Details</h2>
+                </div>
+                
+                <div class="ml-14 space-y-4">
+                    <p>Now let's customize the shortcut with your information:</p>
+                    
+                    <ol class="list-decimal list-inside space-y-3 text-gray-700">
+                        <li>Open the Shortcuts app</li>
+                        <li>Tap on the <strong>QuickDoor</strong> shortcut</li>
+                        <li>Tap the three dots (...) to edit</li>
+                        <li>Find the text fields marked "Enter your info" and update:
+                            <ul class="list-disc list-inside ml-6 mt-2">
+                                <li>Floor number</li>
+                                <li>Apartment number</li>
+                                <li>Additional instructions (e.g., "Near the security gate")</li>
+                            </ul>
+                        </li>
+                        <li>Tap Done at the top</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Step 4: Create Automation -->
+            <div class="bg-white rounded-xl shadow-md p-8 mb-6">
+                <div class="flex items-start mb-4">
+                    <span class="step-number mr-4">4</span>
+                    <h2 class="text-2xl font-bold">Enable Automation</h2>
+                </div>
+                
+                <div class="ml-14 space-y-4">
+                    <p>Final step - link the shortcut to incoming calls:</p>
+                    
+                    <ol class="list-decimal list-inside space-y-3 text-gray-700">
+                        <li>In Shortcuts app, select <strong>Automation</strong> tab at the bottom</li>
+                        <li>Tap + to add a new automation</li>
+                        <li>Select <strong>"Create Personal Automation"</strong></li>
+                        <li>Choose <strong>"Phone Call"</strong></li>
+                        <li>Configure:
+                            <ul class="list-disc list-inside ml-6 mt-2">
+                                <li>From: Anyone</li>
+                                <li>✓ Has caller ID (important!)</li>
+                                <li>✗ Is in my contacts (unchecked)</li>
+                            </ul>
+                        </li>
+                        <li>Tap Next</li>
+                        <li>Add Action → Run Shortcut → select QuickDoor</li>
+                        <li>Turn off <strong>"Ask Before Running"</strong> for automatic operation</li>
+                        <li>Tap Done</li>
+                    </ol>
+                    
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4 mt-6">
+                        <p class="text-green-800 font-semibold">✅ Congratulations! QuickDoor is ready to use</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Usage Tips -->
+            <div class="bg-white rounded-xl shadow-md p-8 mb-6">
+                <div class="flex items-start mb-4">
+                    <span class="text-3xl mr-4">💡</span>
+                    <h2 class="text-2xl font-bold">Usage Tips</h2>
+                </div>
+                
+                <div class="ml-14 space-y-4">
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h3 class="font-bold mb-2">Delivery Mode</h3>
+                        <p class="text-gray-600">Enable the shortcut only when expecting deliveries. Disable it during normal times from Shortcuts → Automation</p>
+                    </div>
+                    
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-bold mb-2">Test First</h3>
+                        <p class="text-gray-600">Ask a friend to call from an unsaved number to test the shortcut</p>
+                    </div>
+                    
+                    <div class="border-l-4 border-yellow-500 pl-4">
+                        <h3 class="font-bold mb-2">Location Updates</h3>
+                        <p class="text-gray-600">Location is captured automatically when the call comes. Make sure GPS is enabled</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Troubleshooting -->
+            <div class="bg-gray-100 rounded-xl p-8">
+                <h2 class="text-2xl font-bold mb-6">Troubleshooting Common Issues</h2>
+                
+                <div class="space-y-4">
+                    <details class="bg-white rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">Shortcut doesn't run automatically</summary>
+                        <p class="mt-3 text-gray-600">Make sure "Ask Before Running" is turned off in the automation settings</p>
+                    </details>
+                    
+                    <details class="bg-white rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">WhatsApp doesn't open</summary>
+                        <p class="mt-3 text-gray-600">Ensure WhatsApp is installed and you're logged in</p>
+                    </details>
+                    
+                    <details class="bg-white rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">Photos don't appear</summary>
+                        <p class="mt-3 text-gray-600">Make sure you created an album named exactly "Delivery Photos"</p>
+                    </details>
+                    
+                    <details class="bg-white rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">Location error message</summary>
+                        <p class="mt-3 text-gray-600">Go to Settings → Privacy → Location Services → Shortcuts → Always</p>
+                    </details>
+                    
+                    <details class="bg-white rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">Shortcut runs for all calls</summary>
+                        <p class="mt-3 text-gray-600">Make sure "Is in my contacts" is unchecked in the automation trigger</p>
+                    </details>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Back to Home -->
+    <section class="py-12 text-center">
+        <a href="index.html" class="inline-block gradient-bg text-white font-bold px-8 py-4 rounded-full hover:opacity-90 transition-opacity">
+            ← Back to Homepage
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-2">Need help? Contact us</p>
+            <a href="mailto:support@quickdoor.app" class="text-green-400 hover:underline">support@quickdoor.app</a>
+        </div>
+    </footer>
+</body>
+</html>

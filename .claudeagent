@@ -1,0 +1,46 @@
+# Agent for Supabase schema and queries
+database_agent:
+  role: "Database architect specializing in Supabase"
+  context: "Focus on optimal schema design, indexes, and RLS policies"
+  applies_to: ["lib/supabase.ts", "*.sql"]
+
+# Agent for mobile/responsive design  
+mobile_agent:
+  role: "Mobile-first UI developer"
+  context: "Prioritize touch-friendly interfaces, RTL support, WhatsApp integration"
+  applies_to: ["components/**/*.tsx", "app/**/*.tsx"]
+```
+
+---
+
+## Step 4: Initial Prompt for Claude Code
+
+Open Claude Code and paste this:
+```
+I'm building QuickDoor - a delivery address sharing app for Saudi consumers. 
+Full context is in claude.md.
+
+Let's start:
+
+1. Initialize Next.js 14 project with:
+   - TypeScript (strict mode)
+   - Tailwind CSS
+   - App Router
+   - ESLint
+
+2. Set up the basic file structure as defined in claude.md
+
+3. Create placeholder components:
+   - components/MapPicker.tsx
+   - components/PhotoUpload.tsx  
+   - components/AddressForm.tsx
+   - components/AddressView.tsx
+
+4. Set up Supabase client in lib/supabase.ts with TypeScript types
+
+5. Create types/index.ts with the Address interface
+
+Start with step 1. After each step completes, ask me for credentials 
+if needed (Supabase, Google Maps) before proceeding.
+
+Let's build fast! 🚀
